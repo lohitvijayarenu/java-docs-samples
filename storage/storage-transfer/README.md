@@ -90,6 +90,10 @@ bucket for files untouched for 30 days.
 1. Run with `mvn compile` and
    `mvn exec:java -Dexec.mainClass="com.google.cloud.storage.storagetransfer.samples.RequestChecker"`
 
+## List transfe rjobs
+1. Run `mvn compile` and
+   `mvn exec:java -Dexec.mainClass=com.google.cloud.storage.storagetransfer.samples.STSJobStatus -Dexec.args="-projectName gcp-project-name"
+
 ## References
 
 - [Google Storage Transfer API Client
